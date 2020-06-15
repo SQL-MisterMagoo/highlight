@@ -1,9 +1,13 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Highlight", "Highlight\Highlight.csproj", "{A78FD882-5894-4AA8-9BE5-D5E6F16E9A78}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Highlight.Tests", "Highlight.Tests\Highlight.Tests.csproj", "{A34337ED-BA40-4F0F-8406-93D0FE4F257D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Highlight.Netstandard", "Highlight.Netstandard\Highlight.Netstandard.csproj", "{DCD20E7D-A5B5-4FAC-89AD-2AF1ACF5A56A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,8 +23,15 @@ Global
 		{A34337ED-BA40-4F0F-8406-93D0FE4F257D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A34337ED-BA40-4F0F-8406-93D0FE4F257D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A34337ED-BA40-4F0F-8406-93D0FE4F257D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCD20E7D-A5B5-4FAC-89AD-2AF1ACF5A56A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCD20E7D-A5B5-4FAC-89AD-2AF1ACF5A56A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCD20E7D-A5B5-4FAC-89AD-2AF1ACF5A56A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCD20E7D-A5B5-4FAC-89AD-2AF1ACF5A56A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31862362-1E84-44B8-9315-71DFF32F4BE0}
 	EndGlobalSection
 EndGlobal
